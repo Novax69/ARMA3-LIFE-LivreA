@@ -1,6 +1,7 @@
 /*
 	file : fn_updateLivreA.sqf
 	author : Novax
+	github : https://github.com/Novax69 <== Find my other scripts for arma here
 	date : 26/04/2020
 
 	Description : Update the DB and add the cash to a DB
