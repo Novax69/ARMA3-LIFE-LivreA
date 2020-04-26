@@ -11,7 +11,7 @@
 */
 
 private ["_value","_playerUID"];
-_value = parseNumber(ctrlText 2702);
+_value = parseNumber(ctrlText 690015);
 _playerUID = getPlayerUID player;
 
 
