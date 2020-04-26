@@ -2,4 +2,9 @@
 
 this enableSimulation false; 
 this allowDamage false; 
-this addAction["<t color='#ADFF2F'>DAB</t>",life_fnc_livretAMenu,"",0,FALSE,FALSE,"",' isNull objectParent player && player distance _target < 4 '];
+
+// FRENCH :
+this addAction["<t color='#ADFF2F'>Votre Livret A</t>",life_fnc_livretAMenu,"",0,FALSE,FALSE,"",' isNull objectParent player && player distance _target < 4 '];
+
+// ENGLISH :
+this addAction["<t color='#ADFF2F'>Your Livret A</t>",life_fnc_livretAMenu,"",0,FALSE,FALSE,"",' isNull objectParent player && player distance _target < 4 '];
