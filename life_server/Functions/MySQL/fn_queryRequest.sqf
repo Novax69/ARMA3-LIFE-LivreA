@@ -10,6 +10,10 @@ _query = switch (_side) do {
     case civilian: {format ["SELECT pid, name, cash, bankacc, adminlevel, donorlevel, civ_licenses, arrested, civ_gear, civ_stats, civ_alive, civ_position, playtime, livrea FROM players WHERE pid='%1'",_uid];};
     // Independent - 10 entries returned
     case independent: {format ["SELECT pid, name, cash, bankacc, adminlevel, donorlevel, med_licenses, mediclevel, med_gear, med_stats, playtime, livrea FROM players WHERE pid='%1'",_uid];};
+
+    //if you have OPFOR disable the comment below :
+    // case east: {format ["SELECT pid, name, cash, bankacc, adminlevel, donorlevel, adac_licenses, adaclevel, adac_gear, adac_stats, playtime, livrea FROM players WHERE pid='%1'",_uid];};
+
 };
 
 
