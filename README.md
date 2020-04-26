@@ -14,6 +14,7 @@ Laissez juste les Crédits svp
 ### Crédits :
 
 **Auteur** : Novax
+
 **Debug** : Vladimir Petrovitch
 
 ## ENG :
@@ -28,4 +29,5 @@ you can edit the code but please leave us the credits
 
 ### Credits
 **Author :** Novax
+
 **Debug :** Vladimir Petrovitch
