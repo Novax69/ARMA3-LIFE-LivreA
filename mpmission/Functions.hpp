@@ -5,3 +5,11 @@
 		class withdrawLivreA {};
 		//ADD
     };
+
+    class Shops {
+        file = "core\shops";
+
+        //ADD
+        class livretAMenu {};
+        //ADD
+    };
