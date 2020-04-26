@@ -21,4 +21,4 @@ if (!dialog) then {
 
 disableSerialization;
 
-CONTROL(690001,690012) ctrlSetStructuredText parseText format ["<img size='1.7' image='icons\ico_bank.paa'/> $%1",[LIVREA] call life_fnc_numberText];
+CONTROL(690001,690012) ctrlSetStructuredText parseText format ["<img size='1.7' image='icons\ico_bank.paa'/> $%1<br/><img size='1.6' image='icons\ico_money.paa'/> $%2",[LIVREA] call life_fnc_numberText,[CASH] call life_fnc_numberText];
