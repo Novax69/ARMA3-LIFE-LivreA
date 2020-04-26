@@ -1,0 +1,34 @@
+#include "..\..\script_macros.hpp"
+/*
+    File: fn_budgetDepositBLU.sqf
+    Author: Novax 
+    Date : 26/04/2020
+
+    Description:
+    Depose l'argent dans le livret A
+    Deposit inside the A book :D
+*/
+
+private ["_value","_playerUID","_mode"];
+_value = parseNumber(ctrlText 2702);
+
+_playerUID = getPlayerUID player;
+
+if (_value > 999999) exitWith {hint localize "STR_ATM_GreaterThan";};
+if (_value < 0) exitWith {};
+if (!([str(_value)] call TON_fnc_isnumber)) exitWith {hint localize "STR_ATM_notnumeric"};
+if (_value > CASH) exitWith {hint localize "STR_ATM_NotEnoughCash"};
+
+
+CASH = CASH - _value;
+
+_mode = 0;
+
+
+[_mode,_playerUID,_value] remoteExecCall ["DB_fnc_updateLivreA",RSERV];
+
+hint format["Vous avez bien déposé %1 € dans votre livret A",[_value] call life_fnc_numberText];
+
+[] call life_fnc_atmMenu;
+[6] call SOCK_fnc_updatePartial; //Silent Sync
+
