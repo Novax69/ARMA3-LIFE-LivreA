@@ -22,7 +22,7 @@ if (_value < 0) exitWith {};
 if (!([str(_value)] call TON_fnc_isnumber)) exitWith {hint localize "STR_ATM_notnumeric"};
 if (_value > LIVREA) exitWith {hint "Pas assez d'argent dans le livre A"};
 
-CASH = CASH + _value
+CASH = CASH + _value;
 LIVREA = LIVREA - _value;
 
 [_playerUID,LIVREA] remoteExecCall ["DB_fnc_updateLivreA",RSERV];
