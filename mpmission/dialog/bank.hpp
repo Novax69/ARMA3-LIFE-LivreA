@@ -1,4 +1,12 @@
 //Add 
+        class CashTitleLivreA: Life_RscStructuredText {
+            idc = 2709;
+            text = "";
+            x = 0.4;  // tweak the coords I didn't do it, it's on the Gang one   
+            y = 0.69; // tweak the coords I didn't do it, it's on the Gang one   
+            w = 0.3;  // tweak the coords I didn't do it, it's on the Gang one  
+            h = .07;  // tweak the coords I didn't do it, it's on the Gang one  
+        };
         class livreADeposit : Life_RscButtonMenu {
             idc = 2707;
             text = "Déposer: Livret A";
