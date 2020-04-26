@@ -2,7 +2,8 @@
 ## FR :
 ### Général :
 Ajoute un système de livret A dans arma 3
-
+Ajoute de l'argent sur votre livret A toutes les 30 minutes (peu être modifié)
+Ajoute environ 2% (peu etre modifié)
 
 ***Il suffit juste d'ouvrir les fichiers, lire les instructions et placer correctement***
 
