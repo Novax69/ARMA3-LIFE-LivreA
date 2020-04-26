@@ -30,6 +30,6 @@ LIVREA = LIVREA + _value;
 
 hint format["Vous avez bien déposé %1 € dans votre livret A",[_value] call life_fnc_numberText];
 
-[] call life_fnc_atmMenu;
+[] call life_fnc_livretAMenu;
 [6] call SOCK_fnc_updatePartial; //Silent Sync
 
