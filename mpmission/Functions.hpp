@@ -13,3 +13,15 @@
         class livretAMenu {};
         //ADD
     };
+
+    class Functions    {
+        file = "core\functions";
+		/*
+		...
+		...
+		...
+		*/
+        // ADD
+		class addLivreAPercent {}; 
+        // ADD
+    };

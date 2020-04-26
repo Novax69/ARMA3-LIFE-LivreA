@@ -1,9 +1,0 @@
-    class Functions    {
-        file = "core\functions";
-		/*
-		...
-		...
-		...
-		*/
-		class addLivreAPercent {}; // Add this line
-    };

@@ -22,7 +22,7 @@ Laissez juste les Crédits svp
 ### Global :
 
 Add a bank system, the longer the money is in your "Livret A" account the more money it gets you
-add 2% more every 30 min (optional files) for the money in the "Livret A"
+add 2% more every 30 min for the money in the "Livret A"
 
 ***You just have to open the files and follow what's inside***
 
