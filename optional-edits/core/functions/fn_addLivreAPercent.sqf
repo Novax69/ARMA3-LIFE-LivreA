@@ -2,7 +2,7 @@
 /*
     File: fn_addLivreAPercent.sqf
     Author: Novax
-   	github : https://github.com/Novax69 <== Find my other scripts for arma here
+	github : https://github.com/Novax69 <== Find my other scripts for arma here
 	Date : 26/04/2020
 
     Description: Edit the livret A account every 30 minutes of gameplay can be tweaked with donorLevel
