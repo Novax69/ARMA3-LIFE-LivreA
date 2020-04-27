@@ -11,12 +11,12 @@
 
 private["_donorLevel","_percent","_useDonorLevel","_percentRate"];
 
-_useDonorLevel = true; // Change this if you want every player to have the same update on Livret A
-_percentRate = 2; // Change this if you want a bigger percent added (default 2%)
+_useDonorLevel = LIFE_SETTINGS(getNumber,"nov_useDonator");
+_percentRate = LIFE_SETTINGS(getNumber,"nov_percentToAdd");
 
 
 // Only works if the player is a donor
-if(_useDonorLevel) then {
+if(_useDonorLevel isEqualTo 1) then {
 	_donorLevel = FETCH_CONST(life_donorlevel); // don't forget to enable life_donorlevel in config_master
 	_percentRate = _percentRate + (_donorLevel / 4); // Add 1/4 of the donator Level Level 1 : 2.25 / 2 => 2.5 ... 
 };
