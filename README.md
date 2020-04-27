@@ -11,6 +11,7 @@ Vous pouvez adapter à votre guise ! :)
 
 Laissez juste les Crédits svp
 
+Codé sur la version **5.0.0** de Altis-Life
 
 ### Crédits :
 
@@ -27,6 +28,8 @@ add 2% more every 30 min for the money in the "Livret A"
 ***You just have to open the files and follow what's inside***
 
 you can edit the code but please leave us the credits
+
+Made for version **5.0.0** of Altis-Life
 
 ### Credits
 **Author :** Novax
