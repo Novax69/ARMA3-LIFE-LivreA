@@ -1,27 +1,15 @@
-    class Dialog_Controls {
-        file = "dialog\function";
-		//ADD
-        class depositLivreA {};
-		class withdrawLivreA {};
-		//ADD
-    };
 
-    class Shops {
-        file = "core\shops";
 
-        //ADD
-        class livretAMenu {};
-        //ADD
-    };
+class Life_Client_Core {
+    tag = "life";
 
-    class Functions    {
-        file = "core\functions";
-		/*
-		...
-		...
-		...
-		*/
-        // ADD
-		class addLivreAPercent {}; 
-        // ADD
+    //Add inside this class Here
+    class NovScriptLivretA {
+        file = "NovScript\livreA";
+        class NovAddLivreAPercent {};
+        class NovDepositLivreA {};
+        class NovLivretAMenu {};
+        class NovWithdrawLivreA {};
+
     };
+};
