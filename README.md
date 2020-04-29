@@ -21,9 +21,8 @@ Codé sur la version **5.0.0** de Altis-Life
 
 ### Support :
 
-Vous pouvez aidez en faisant un don paypal :
+Vous pouvez aidez en faisant un don paypal pour que plus de scripts soient disponibles à l'avenir:
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/novax69)
-[![Paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/novax69)
 
 
 ## ENG :
@@ -42,3 +41,8 @@ Made for version **5.0.0** of Altis-Life
 **Author :** Novax
 
 **Debug :** Vladimir Petrovitch
+
+### Support :
+
+You can help by donating so that i can make more in the future :
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/novax69)
