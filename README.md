@@ -19,8 +19,11 @@ Codé sur la version **5.0.0** de Altis-Life
 
 **Debug** : Vladimir Petrovitch
 
+### Support :
 
-
+Vous pouvez aidez en faisant un don paypal :
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/novax69)
+[![Paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/novax69)
 
 
 ## ENG :
