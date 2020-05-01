@@ -28,7 +28,7 @@ class Life_livretA_management {
         class Title: Life_RscTitle {
             colorBackground[] = {0, 0, 0, 0};
             idc = -1;
-            text = "Gestion du Livret A"; // Eng : Managing Livret A
+            text = "$STR_NOV_livretA_TitleMenu"; // Eng : Managing Livret A
             x = 0.421249 * safezoneW + safezoneX;
             y = 0.248 * safezoneH + safezoneY;
             w = 0.1575 * safezoneW;
@@ -44,7 +44,7 @@ class Life_livretA_management {
         };
         class livreADeposit : Life_RscButtonMenu {
             idc = 690013;
-            text = "Déposer: Livret A";
+            text = "$STR_NOV_livretA_DepositButton";
             colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
             onButtonClick = "[] call life_fnc_NovDepositLivreA";
             x = 0.434375 * safezoneW + safezoneX;
@@ -54,7 +54,7 @@ class Life_livretA_management {
         };
         class livreAWithdraw : Life_RscButtonMenu {
             idc = 690014;
-            text = "Retirer: Livret A";
+            text = "STR_NOV_livretA_WithdrawButton";
             colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
             onButtonClick = "[] call life_fnc_NovWithdrawLivreA";
             x = 0.434375 * safezoneW + safezoneX;
