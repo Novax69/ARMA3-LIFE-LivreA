@@ -1,4 +1,7 @@
-         <Key ID="STR_NOV_livretA_TitleMenu">
+<!--
+    If Someone know the other language you cant create an issue on github :)
+--> 
+        <Key ID="STR_NOV_livretA_TitleMenu">
             <Original>Livret A Managment</Original>
             <Czech>TO EDIT => LIVRET A</Czech>
             <Spanish>TO EDIT => LIVRET A</Spanish>
