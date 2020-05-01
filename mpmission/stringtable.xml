@@ -31,6 +31,17 @@
             <Portuguese>TO EDIT => LIVRET A</Portuguese>
             <Polish>TO EDIT => LIVRET A</Polish>
         </Key>
+        <Key ID="STR_NOV_livretA_NotEnoughInAccount">
+            <Original>Not Enough cash in Livret A</Original>
+            <Czech>TO EDIT => LIVRET A</Czech>
+            <Spanish>TO EDIT => LIVRET A</Spanish>
+            <Russian>TO EDIT => LIVRET A</Russian>
+            <German>TO EDIT => LIVRET A</German>
+            <French>Pas assez d'argent dans le Livret A</French>
+            <Italian>TO EDIT => LIVRET A</Italian>
+            <Portuguese>TO EDIT => LIVRET A</Portuguese>
+            <Polish>TO EDIT => LIVRET A</Polish>
+        </Key>
         <Key ID="STR_NOV_livretA_DepositSuccess">
             <Original>You did deposit %1$ to your Livret A</Original>
             <Czech>TO EDIT => LIVRET A</Czech>
