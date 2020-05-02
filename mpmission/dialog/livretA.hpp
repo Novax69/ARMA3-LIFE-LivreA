@@ -54,7 +54,7 @@ class Life_livretA_management {
         };
         class livreAWithdraw : Life_RscButtonMenu {
             idc = 690014;
-            text = "STR_NOV_livretA_WithdrawButton";
+            text = "$STR_NOV_livretA_WithdrawButton";
             colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
             onButtonClick = "[] call life_fnc_NovWithdrawLivreA";
             x = 0.434375 * safezoneW + safezoneX;
